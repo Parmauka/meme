@@ -171,7 +171,8 @@ public class MainActivity extends AppCompatActivity {
             int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
             String picturePath = cursor.getString(columnIndex);
             cursor.close();
-            imageView.setImageBitmap(BitmapFactory.decodeFile(picturePath));
+         //   imageView.setImageBitmap(BitmapFactory.decodeFile(picturePath));
+            imageView.setImageURI(selectedImage);
             save.setEnabled(true);
             share.setEnabled(false);
         }
