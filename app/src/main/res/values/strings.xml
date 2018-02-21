@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MEME</string>
+    <string name="top_text">Top Text</string>
+    <string name="bottom_text">Bottom Text</string>
+    <string name="go">Go</string>
+    <string name="load">load</string>
+    <string name="save">save</string>
+    <string name="share">share</string>
+</resources>
